@@ -1,0 +1,6 @@
+<div>
+    <h1>{{title}}
+        {{message}}
+    </h1>
+</div>
+<app-user-registration (childEvent)="message=$event" [parentData]="detail "></app-user-registration>
